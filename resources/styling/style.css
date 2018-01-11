@@ -35,6 +35,7 @@ nav a {
 
 .main-content {
   text-align: center;
+  opacity: 0.9;
 }
 
 /* Mission Section */
@@ -59,7 +60,7 @@ nav a {
 .tea-of-the-month {
   width: 1000px;
   margin: 0px auto;
-  padding: 100px 0;
+  padding: 100px 0 50px;
 }
 .three-pics {
   display: flex;
@@ -84,4 +85,43 @@ nav a {
   display: flex;
   flex-direction: column;
   margin: 0 25px;
+}
+
+/* Locations Section */
+
+.locations-image h2 {
+  position: absolute;
+  margin: -145px auto 0;
+  padding: 15px 0;
+  left: 0;
+  right: 0;
+}
+.locations-image {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.locations {
+  display: flex;
+  width: 980px;
+}
+.location {
+  background-color: black;
+  width: 300px;
+  margin: 0 20px;
+  opacity: 1;
+}
+
+/* Footer Section */
+
+.contact-info {
+  height: 200px;
+}
+#copyright {
+  text-align: left;
+  padding-left: 20px;
 }
