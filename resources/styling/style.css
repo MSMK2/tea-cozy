@@ -61,7 +61,7 @@ nav a {
   margin: 0px auto;
   padding: 100px 0;
 }
-.tea-pics {
+.three-pics {
   display: flex;
   justify-content: space-between;
 }
@@ -72,4 +72,16 @@ nav a {
 .pic-title-combo img {
   height: 200px;
   width: 300px;
+}
+.pic-title-combo h4 {
+  margin-top: 10px;
+}
+.two-pics {
+  display: flex;
+  justify-content: center;
+}
+.two-pics .pic-title-combo {
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px;
 }
